@@ -1,11 +1,9 @@
-pandas
-numpy
-seaborn
-scikit-learn
-catboost
-xgboost
-Flask
-dill
-
-#-e .
-gunicorn
+Flask==3.0.3
+gunicorn==21.2.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+xgboost==2.0.3
+catboost==1.2.5
+dill==0.3.8
+seaborn==0.13.2
